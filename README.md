@@ -12,7 +12,6 @@ This repository contains a collection of workshops completed as part of the **So
 5. **Workshop 6**: Security Weakness Identification Using Bandit
 6. **Workshop 7**: Automated Data Flow Analysis
 7. **Workshop 8**: Event-Driven Static Analysis with Git Hooks
-8. **Workshop 12**: Software Forensics Through Logging in Machine Learning Code
 
 ---
 
