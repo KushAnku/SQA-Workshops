@@ -1,0 +1,19 @@
+Successfully ran the command 'bandit -r .' and received detailed output regarding security weaknesses. Based on the output below are the three frequent security weakness. 
+
+[B101: assert_used]
+Description: The assert statement is used in various parts of the code. The enclosed code will be removed when compiling to optimized byte code.
+Severity: Low
+Confidence: High
+CWE: CWE-703
+
+[B311: blacklist]
+Description: Standard pseudo-random generators such as random are not suitable for security/cryptographic purposes. 
+Severity: Low
+Confidence: High
+CWE: CWE-330
+
+[B614: pytorch_load_save]
+Description: use of Unsafe PyTorch load or save methods are detected. 
+Severity: Medium
+Confidence: High
+CWE: CWE-502

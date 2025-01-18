@@ -1,0 +1,72 @@
+C:\Users\singh\WorkShop_2>python -m unittest test.py 
+..EEEEE..
+======================================================================
+ERROR: testDivision1 (test.TestDivision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\singh\WorkShop_2\test.py", line 34, in testDivision1
+    self.assertEqual(source.performDiv(10, 2), 5, "Error in division.")
+AttributeError: module 'source' has no attribute 'performDiv'
+
+======================================================================
+ERROR: testDivision2 (test.TestDivision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\singh\WorkShop_2\test.py", line 37, in testDivision2
+    self.assertEqual(source.performDiv(9, 3), 3, "Error again in division.")
+AttributeError: module 'source' has no attribute 'performDiv'
+
+======================================================================
+ERROR: testDivisionByZero (test.TestDivision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\singh\WorkShop_2\test.py", line 41, in testDivisionByZero
+    source.performDiv(10, 0)
+AttributeError: module 'source' has no attribute 'performDiv'
+
+======================================================================
+ERROR: testMultiplication1 (test.TestMultiplication)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\singh\WorkShop_2\test.py", line 27, in testMultiplication1
+    self.assertEqual(source.performMul(10, 5), 50, "Error in multiplication.")
+AttributeError: module 'source' has no attribute 'performMul'
+
+======================================================================
+ERROR: testMultiplication2 (test.TestMultiplication)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\singh\WorkShop_2\test.py", line 30, in testMultiplication2
+    self.assertEqual(source.performMul(-3, 4), -12, "Error again in multiplication.")
+AttributeError: module 'source' has no attribute 'performMul'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+FAILED (errors=5)
+
+
+C:\Users\singh\WorkShop_2>python -m unittest test.py 
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK
+
+C:\Users\singh\WorkShop_2>python -m unittest test.py 
+..C:\Users\singh\WorkShop_2\test.py:34: DeprecationWarning: Please use assertEqual instead.
+  self.assertEquals(source.performDiv(10, 2), 5, "Error in division.")
+.......
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
+
+C:\Users\singh\WorkShop_2>python -m unittest test.py 
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK
+
+
